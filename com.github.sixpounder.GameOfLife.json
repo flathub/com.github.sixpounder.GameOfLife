@@ -46,15 +46,20 @@
                     "CARGO_HOME": "/run/build/game-of-life/cargo"
                 }
             },
+            "build-commands": [
+                "cargo --offline fetch --manifest-path Cargo.toml --verbose",
+                "cargo --offline build --release --verbose",
+                "install -Dm755 ./target/release/game-of-life -t /app/bin/"
+            ],
             "sources" : [
                 {
                     "type" : "git",
-                    "tag" : "v0.1.4-3",
-                    "commit": "b86ea8e560f263ff445b66e1c6261eef0d094eba",
+                    "tag" : "v0.1.5-2",
+                    "commit": "48320db0360fc288c4e708b222bc3106961e50ab",
                     "url" : "https://github.com/sixpounder/game-of-life"
                 },
                 "cargo-sources.json"
             ]
         }
     ]
-}
+}	
