@@ -54,12 +54,12 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "tag" : "v0.1.5",
-                    "commit": "a712312d189ae17fd83f28569f017d0f524abc79",
+                    "tag" : "v0.1.5-2",
+                    "commit": "48320db0360fc288c4e708b222bc3106961e50ab",
                     "url" : "https://github.com/sixpounder/game-of-life"
                 },
                 "cargo-sources.json"
             ]
         }
     ]
-}
+}	
