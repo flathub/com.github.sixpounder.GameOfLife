@@ -46,11 +46,6 @@
                     "CARGO_HOME": "/run/build/game-of-life/cargo"
                 }
             },
-            "build-commands": [
-                "cargo --offline fetch --manifest-path Cargo.toml --verbose",
-                "cargo --offline build --release --verbose",
-                "install -Dm755 ./target/release/game-of-life -t /app/bin/"
-            ],
             "sources" : [
                 {
                     "type" : "git",
