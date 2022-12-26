@@ -48,13 +48,11 @@
             },
             "sources" : [
                 {
-                    "type" : "git",
-                    "tag" : "v0.1.5-2",
-                    "commit": "48320db0360fc288c4e708b222bc3106961e50ab",
-                    "url" : "https://github.com/sixpounder/game-of-life"
-                },
-                "cargo-sources.json"
+                    "type" : "archive",
+                    "url" : "https://github.com/sixpounder/game-of-life/releases/download/v0.2.0-1/game-of-life-0.2.0.tar.xz",
+                    "sha256": "79043720c2f007940cbff4b07a7fbe0a604ac45a01101839994bbb3eb58ad88d"
+                }
             ]
         }
     ]
-}	
+}
