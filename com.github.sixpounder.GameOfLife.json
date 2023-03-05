@@ -49,8 +49,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/sixpounder/game-of-life/releases/download/v0.3.5/game-of-life-0.3.5.tar.xz",
-                    "sha256": "c1fafa23b5dd61545fbd7d5c21f14b3d5991ea76ff7fb460d7a1ff3dc98bb295"
+                    "url" : "https://github.com/sixpounder/game-of-life/releases/download/v0.3.6/game-of-life-0.3.6.tar.xz",
+                    "sha256": "8d400227d6e3b48d94b0f7cb374cd4206542720c28598cacf5e5c070c2897fc9"
                 }
             ]
         }
