@@ -1,7 +1,7 @@
 {
     "app-id" : "com.github.sixpounder.GameOfLife",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "43",
+    "runtime-version" : "44",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -34,6 +34,43 @@
         "*.a"
     ],
     "modules" : [
+    	{
+            "name": "libsass",
+            "builddir": true,
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/lazka/libsass.git",
+                    "branch": "meson",
+                    "commit": "aac79dccd3c8f7e8f22125f87a119f3b1ee9d487"
+                }
+            ]
+        },
+        {
+            "name": "sassc",
+            "builddir": true,
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/lazka/sassc.git",
+                    "branch": "meson",
+                    "commit": "a1950c2d95ea4c051feb90bb1f43559fbb54bf36"
+                }
+            ]
+        },
+        {
+            "name": "libadwaita",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
+                    "tag": "1.3.1"
+                }
+            ]
+        },
         {
             "name" : "game-of-life",
             "builddir" : true,
@@ -49,8 +86,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/sixpounder/game-of-life/releases/download/v0.3.6/game-of-life-0.3.6.tar.xz",
-                    "sha256": "8d400227d6e3b48d94b0f7cb374cd4206542720c28598cacf5e5c070c2897fc9"
+                    "url" : "https://github.com/sixpounder/game-of-life/releases/download/v0.4.0-1/game-of-life-0.4.0.tar.xz",
+                    "sha256": "54635224537df1f9da754ea2e175b766ad7507b1615f53d819cbfacd958c425c"
                 }
             ]
         }
