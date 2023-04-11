@@ -34,6 +34,17 @@
         "*.a"
     ],
     "modules" : [
+    	{
+            "name": "libadwaita",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
+                    "branch": "libadwaita-1-3"
+                }
+            ]
+        },
         {
             "name" : "game-of-life",
             "builddir" : true,
