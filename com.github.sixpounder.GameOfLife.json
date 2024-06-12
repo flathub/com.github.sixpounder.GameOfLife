@@ -51,6 +51,10 @@
                     "type" : "archive",
                     "url" : "https://github.com/sixpounder/game-of-life/releases/download/v0.4.0-1/game-of-life-0.4.0.tar.xz",
                     "sha256": "54635224537df1f9da754ea2e175b766ad7507b1615f53d819cbfacd958c425c"
+                },
+                {
+                    "type" : "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
         }
