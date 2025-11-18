@@ -1,7 +1,7 @@
 {
     "app-id" : "com.github.sixpounder.GameOfLife",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "47",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -48,8 +48,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/sixpounder/game-of-life/releases/download/v0.6.0/game-of-life-0.6.0.tar.xz",
-                    "sha256": "72a1e2dc2898925db158e03db297784e08b30ec13a1290265c43d6d54331d8cf"
+                    "url" : "https://github.com/sixpounder/game-of-life/releases/download/v0.6.1/game-of-life-0.6.1.tar.xz",
+                    "sha256": "877e63c8e38baf10636ca164eb65315125b533ec5ceb2a6014ed29a4b2065bd2"
                 }
             ]
         }
